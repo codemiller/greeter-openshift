@@ -20,7 +20,6 @@ create table Users (id int(50) not null auto_increment primary key, username var
 create table Insult (id int(50) not null auto_increment primary key, firstAdjective varchar(35), secondAdjective varchar(35), noun varchar(35));
 
 insert into Users (id, username, firstName, lastName) values (-1, 'katie', 'Katie', 'Miller');
-insert into Users (id, username, firstName, lastName) values (-2, 'drew', 'Drew', 'Khoury');
 
 insert into Insult (id, firstAdjective, secondAdjective, noun) values (-1, 'artless', 'base-court', 'apple-john');
 insert into Insult (id, firstAdjective, secondAdjective, noun) values (-2, 'bawdy', 'bat-fowling', 'baggage');

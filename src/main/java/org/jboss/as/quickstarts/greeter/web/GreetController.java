@@ -46,7 +46,7 @@ public class GreetController {
         if (user != null) {
             greeting = user.getFirstName() + ", you're " + buildInsult(insultDao.getInsults());
         } else {
-            greeting = "No such user exists stupid! Try 'katie' or 'drew'.";
+            greeting = "No such user exists stupid! Try 'katie'.";
         }
     }
 
